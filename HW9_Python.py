@@ -28,12 +28,10 @@ userInput = input('Please enter an abbreviation for an engineering program: ')
 # Use if statement to check if the chosen abbreviation is in the dictionary
 if userInput in degrees.keys():
     # Space for clarity
-    print(' ')
-    print('The engineering degree program you chose is '+ str(degrees[userInput]) + '.')
+    print(f"\nThe engineering degree program you chose is " + str(degrees[userInput]) + '.')
 else:
     # Space for clarity
-    print(' ')
-    print('Not in the dictionary of majors in the College of Engineering')
+    print(f"\nNot in the dictionary of majors in the College of Engineering")
 
 """Problem 2:<p>This program creates two dictionaries of print time and masses for different valves. It will then find and display the number of valves considered. Then, it will create two new dictionaries that include the data that took less than 400 minutes to print and with a mass above 75 grams. Finally, it will display the number of valves in the filtered dictionary along with their respective print time and mass."""
 
